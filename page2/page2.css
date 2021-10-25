@@ -1,0 +1,44 @@
+
+body{
+  background-color:rgb(255, 226, 173);
+  
+}
+
+.top-bar{
+  background-color:gold;
+  display:flex;
+ width:100%;
+ height:auto;
+}
+.logo{
+  color:rgb(255, 153, 0);
+  flex: 1;
+font-size: 70px;
+  padding:18px;
+  font-family: 'Ranchers', cursive; 
+}
+
+ul{
+  display: flex;
+  list-style: horizontal;
+  margin-top:30px;
+flex-flow: row wrap;
+ list-style-type: none;
+
+}
+
+li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  justify-content: space-between;
+  font-size: 30px;
+
+
+
+  
+}
+
+menu

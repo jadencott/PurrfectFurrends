@@ -1,0 +1,157 @@
+*{margin: 0; padding:0;}
+.banner{
+  background: url("https://media4.s-nbcnews.com/j/newscms/2020_14/1553672/therapy-dogs-today-main-200331_fc5b0e1edbe9ed394e18962b823b4f53.fit-760w.jpg");
+  width: 100%; 
+  background-size:cover;
+  }
+.top-bar{
+  background-color:gold;
+  display:flex;
+  width:100%;
+  height:auto;
+
+}
+.logo{
+  color:rgb(255, 153, 0);
+  flex: 1;
+  font-size: 70px;
+  padding:18px;
+  font-family: 'Ranchers', cursive; 
+}
+
+.menu{
+  flex:3;
+}
+
+ul{
+  display: flex;
+  list-style: horizontal;
+  margin-top:30px;
+flex-flow: row wrap;
+ list-style-type: none;
+
+}
+
+.menu ul li {
+  flex: 1;
+  text-align: center;
+
+
+}
+
+li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  justify-content: space-between;
+  font-size: 30px;
+   font-family: 'Ranchers', cursive;
+}
+
+.banner-text{
+  display:flex;
+  padding:15% 0;
+
+}
+
+.banner-text-items{
+  color:#fff;
+  margin:auto;
+  text-align:center;
+  width:50%;
+}
+
+.banner-text-items h2{
+  font-size: 56px;
+  text-transform: uppercase;
+    font-family: 'Ranchers', cursive; 
+}
+
+.banner-text-items p{
+  font-size: 30px;
+    font-family: 'Ranchers', cursive; 
+}
+
+.profiles {
+  display:flex;
+  flex-flow: row wrap;
+  padding:5% 0;
+    font-family: 'Ranchers', cursive; 
+
+}
+
+.profile1 {
+  font-family: 'Indie Flower', cursive;
+  flex: 1;
+  padding:0px;
+text-align: center;
+background-color:white;
+  margin: 10px;
+    font-family: 'Ranchers', cursive; 
+}
+
+.profile2 {
+  font-family: 'Indie Flower', cursive;
+  flex: 1;
+  padding:0px;
+text-align: center;
+background-color:white;
+  margin: 10px;
+    font-family: 'Ranchers', cursive; 
+}
+
+.profile3 {
+  font-family: 'Indie Flower', cursive;
+  flex: 1;
+  padding:0px;
+  text-align: center;
+  background-color: white;
+  margin: 10px;
+    font-family: 'Ranchers', cursive; 
+
+}
+
+.profiles img{
+  width:300px;
+  height:300px;
+  object-fit:cover;
+  border-radius:50%;
+  
+  
+
+  }
+
+  .profiles-title{
+    font-family: 'Indie Flower', cursive;
+  background-color:rgb(255, 178, 62);
+  display:flex;
+ width:93%;
+ height:auto;
+ font-size: 30px;
+ color: white;
+ justify-content: center;
+ margin:20px;
+ padding:40px;
+border-radius: 25px;
+
+}
+}
+ h4{
+  font-size: 55px;
+  padding: 10px;
+
+}
+
+.find-your{
+  margin: 20px;
+  padding:30px;
+  display:flex;
+  width:15%;
+  height:auto;
+  float:right;
+  align-items: center;
+  background-color:rgb(255, 178, 62);
+
+}
